@@ -1,10 +1,20 @@
-html {
+*{
     position:relative;
      background-color: aqua;
+  }
+ ul{
+     font-size: 28px;
+ }
+ ol{
+    font-size: 28px;
+}
+  p{
+      font-size: 30px;
   }
   
   h1{
     text-align:center;
+    color: red;
   }
   
   div{
