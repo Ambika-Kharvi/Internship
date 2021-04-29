@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
  body{
-     background-image: url(im6.jpg);
-     background-size:40%;
+     background-image: url(ima7.jpg);
+     background-size:convber
      background-position: center;
      box-sizing: border-box;
      font-family:sans-serif;
@@ -58,6 +58,22 @@
 .btn:hover {
     background-color: #fff;
     color:black;
+}
+
+.sea {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+      transform: translate(-50%,-50%);
+     
+}
+
+input{
+    border: 3px solid ghostwhite;
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 0px 10px;
 }
 
 
