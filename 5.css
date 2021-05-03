@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(im11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.main{
+   width:350px;
+   height: 100vh;
+   margin-left: 25px;
+   background-color:white;
+}
+
+.main ul{
+    list-style: none;
+    display:block;
+}
+.main  ul li a{
+    color: #616161;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.main ul li a:hover{
+    color: white;
+    background-color:teal;
+}
