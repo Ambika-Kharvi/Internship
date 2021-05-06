@@ -11,6 +11,7 @@ body{
    width:350px;
    height: 100vh;
    margin-left: 25px;
+   
    background-color:white;
 }
 
@@ -29,4 +30,122 @@ body{
 .main ul li a:hover{
     color: white;
     background-color:teal;
+}
+
+.container{
+    position:relative;
+    width:1150px;
+    height:400px;
+    margin: auto 350px;
+    background:transparent;
+}
+.container .box {
+position: relative;
+width:calc(400px - 60px);
+height: calc(400px - 60px);
+background:black;
+float:left;
+margin: 15px;
+box-sizing: border-box;
+overflow:hidden;
+border-radius: 10px;
+
+}
+
+.container .box .icon{
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    background: teal;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+
+.container .box:hover .icon{
+ top:20px;
+   left :calc(50%  - 40px);
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.container .box .icon .fa{
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-size: 80px;
+   transition: 0.5s;
+   color:#fff;
+}
+
+.container .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+
+.container .box .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s ;
+}
+.container .box:hover .content {
+    top:100px;
+}
+
+.container .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size: 34px;
+}
+
+.container .box .content p{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+.container .box:nth-child(1) .icon{
+    background: #319635;
+}
+.container .box:nth-child(1) {
+    background: #4caf50;
+}
+
+.container .box:nth-child(3) .icon{
+    background: #d03852;
+}
+.container .box:nth-child(3) {
+    background: #f54967;
+}
+
+.container .box:nth-child(2) .icon{
+    background:teal;
+}
+.container .box:nth-child(2) {
+    background:lightseagreen;
+}
+
+.sea {
+    position: absolute;
+     top: 5%;
+     left: 48%;
+      transform: translate(-50%,-50%);
+     font-size: 24px;
+}
+
+input{
+    border: 3px solid ghostwhite;
+    height: 40px;
+    width: 600px;
+    border-radius: 50px;
+    padding: 0px 10px;
 }
